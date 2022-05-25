@@ -73,7 +73,7 @@ function limpiarHTML() {
   }
 }
 
-
+//const cerrarCarrito = document.getElementById('finalizar');
 const finalizarCompra = document.getElementById('finalizar');
 finalizarCompra.addEventListener('click', () => {
   if (carritoDeCompras == "") {
@@ -93,7 +93,9 @@ finalizarCompra.addEventListener('click', () => {
       time: 2000
     }) 
   limpiarCarrito();
-  } 
+  //cerrarCarrito();
+  }
+   
 });
 
 
